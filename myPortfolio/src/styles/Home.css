@@ -1,0 +1,59 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 70vh;
+    align-items:center;
+    justify-items: center;
+    color: #ededed;
+   
+  }
+  .about{
+   display:grid;
+   justify-items: flex-start;
+   
+  }
+  
+  .about, .profil-img {
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 4.5em;
+  }
+  .about span {
+    color: #00abf0;
+  }
+  
+  .about p {
+    font-size: 2.5em;
+    
+  }
+  .social-media {
+    display: flex;
+    gap: 15px; /* Adjust the gap according to your preference */
+    justify-content: center;
+  }
+  
+  .social-media > * {
+    margin-right: 10px; /* Adjust the margin according to your preference */
+  }
+  
+  /* Optional: Add space to the last icon to prevent extra space */
+  .social-media > *:last-child {
+    margin-right: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .home {
+      grid-template-columns: 1fr;
+    }
+    .about h2 {
+      font-size: 2.7em;
+    }
+    .about p {
+      font-size: 2em;
+    }
+    
+  }
+  

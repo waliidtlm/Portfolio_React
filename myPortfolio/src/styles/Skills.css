@@ -1,0 +1,65 @@
+.h2-title {
+    font-size: 2.7em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+span{
+    color:#00abf0 ;
+}
+h2{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+h3{
+    text-align: center;
+    
+}
+p{
+    font-size: 1.1rem;
+}
+.Section{
+    background-color: #112e42;
+    padding: 2rem;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    justify-items: center;
+    gap:20px;
+    background-color: #112e42;
+    
+}
+.description{
+    
+    border:solid 1px;
+    width: 90%;
+    padding: 15px;
+    height: fit-content;
+    border-radius: 1rem;
+    border-color: #00abf0;
+   
+}
+.skills{
+    display: block;
+    border:solid 1px;
+    width: 90%;
+    padding: 15px;
+    min-height: 100%;
+    height: fit-content;
+    border-radius: 1rem;
+    border-color: #00abf0;
+    padding-bottom: 2rem;
+   
+}
+.skills button{
+    display:inline-block;
+    margin:10px 10px 0 0;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+      grid-template-columns: 1fr;
+    }
