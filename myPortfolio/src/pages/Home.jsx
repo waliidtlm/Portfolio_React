@@ -20,7 +20,7 @@ function Home() {
             Hi, I'm{" "}
             <span>
               <TypeAnimation
-                sequence={["Walid Tlemçani", 1000]}
+                sequence={["Tlemçani", 1000, "Walid Tlemçani", 2000]}
                 wrapper="span"
                 speed={150}
                 repeat={Infinity}
