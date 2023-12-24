@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
-  
   }
 
   
@@ -14,6 +13,4 @@
     font-family: 'Poppins', sans-serif;
     color: #ededed;
     background-color: #112e42;
-
-  
   }

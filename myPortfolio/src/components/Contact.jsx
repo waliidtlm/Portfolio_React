@@ -13,9 +13,7 @@ function Contact() {
       </div>
 
       <div className="contact" id="Contact">
-        <div className="contact-pic">
-         
-        </div>
+        <div className="contact-pic"></div>
 
         <form
           action="https://formsubmit.co/tlemcani.waliid@gmail.com"
@@ -27,23 +25,28 @@ function Contact() {
                 type="text"
                 placeholder=" Full Name"
                 required
-                maxLength="10"
+                maxLength="18"
               />
               <span className="focus"></span>
             </div>
             <div className="input-field">
-              <input type="text" placeholder=" Email Adress" required />
+              <input type="email" placeholder=" Email Adress" required maxLength="30" />
               <span className="focus"></span>
             </div>
           </div>
 
           <div className="input-box">
             <div className="input-field">
-              <input type="number" placeholder=" Mobile Number" required />
+              <input
+                type="number"
+                placeholder=" Mobile Number"
+                required
+                maxLength="14"
+              />
               <span className="focus"></span>
             </div>
             <div className="input-field">
-              <input type="text" placeholder=" Email Subject " />
+              <input type="text" placeholder=" Email Subject " required maxLength="25" />
               <span className="focus"></span>
             </div>
           </div>
