@@ -1,15 +1,36 @@
+.heading{
+    text-align: center;
+    padding-top: 4rem;
+    
+}
 .contact{
-    min-height: auto;
-    padding-bottom: 7rem;
-    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center ;
+    align-items: center;
+    justify-items: center;
+    background-color: #112e42;
+    border: #00abf0 solid;
 }
 .contact form{
     max-width:100%;
-    margin: 0 auto;
-    text-align: center;
     padding: 5%;
 }
+.contact-pic{
+    display: grid;
+    align-content: center;   
+    height: 80%;
+    width: 60%;
+    border: #00abf0 solid 1px;
+    border-radius: 21% 79% 81% 19% / 52% 19% 81% 48%  ;
+    background-image: url("New-one.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position:center;  
+    transition: border-raduis ease;
+}
+
+
 .contact form .input-box{
     position: relative;
     display: flex;
@@ -26,8 +47,8 @@
 .contact form .textarea-field textarea{
     width: 100%;
     height: 100%;
-    padding: 1.5rem;
-    font-size: 1.2rem;
+    padding: 1rem;
+    font-size: 1.1rem;
     color: #ededed;
     background: #081b29;
     border-radius: .6rem;
@@ -37,7 +58,7 @@
 
 .contact form .input-box .input-field input::placeholder,
 .contact form .textarea-field textarea::placeholder{
-    color: #00abf0;
+    color: #ededed;
 }
 .contact form .focus {
     position: absolute;
@@ -73,4 +94,19 @@ width: 100%;
     width: 130px;
     height: 50px;
     font-weight: bold;
+}
+
+@media (max-width: 768px){
+
+    .contact{
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        border: none;
+    }
+    .contact-pic{
+       height: 50%;
+       width: 100%;
+    }
 }

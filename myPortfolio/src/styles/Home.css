@@ -5,13 +5,12 @@
     align-items:center;
     justify-items: center;
     color: #ededed;
+    background:url('Landscape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
    
   }
-  .about{
-   display:grid;
-   justify-items: flex-start;
-   
-  }
+
   
   .about, .profil-img {
     text-align: center;
@@ -25,7 +24,7 @@
   }
   
   .about p {
-    font-size: 2.5em;
+    font-size: 1.5em;
     
   }
   .social-media {
@@ -33,16 +32,68 @@
     gap: 15px; /* Adjust the gap according to your preference */
     justify-content: center;
   }
-  
-  .social-media > * {
-    margin-right: 10px; /* Adjust the margin according to your preference */
+  .Linkedin:hover{
+    transform:scale(1.07);
+    
   }
+  .whatsapp:hover{
+    transform:scale(1.07);
+    
+  }
+  .messenger:hover{
+    transform:scale(1.07);
+    
+  }
+  .email:hover{
+    transform:scale(1.07); 
+    
+  }
+ 
   
   /* Optional: Add space to the last icon to prevent extra space */
-  .social-media > *:last-child {
-    margin-right: 0;
-  }
-  
+ 
+  .button-1{
+    cursor: pointer;
+    margin-top: 2rem;
+    background-color: #00abf0;
+    border: none;
+    color: #112e42;
+    padding: 10px 15px;
+    margin-right: 2rem;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition-duration: 500ms;
+}
+.button-1:hover{
+  color: #ededed;
+}
+  .button-2{
+    cursor: pointer;
+    margin-top: 2rem;
+    border: none;
+    background:none;
+    padding: 10px 15px;
+    color: #00abf0;
+    margin-right: 2rem;
+    font-weight: bold;
+    width: 150px;
+    font-size: 1.2rem;
+    transition-duration: 500ms;
+}
+.button-2:hover{
+  background-color: #00abf0;
+  color: #ededed;
+  border-radius: 5px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+
+
   
   @media (max-width: 768px) {
     .home {

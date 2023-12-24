@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Skills.css"
-import {faSquareCheck} from "@fortawesome/free-solid-svg-icons"
+import {faScrewdriverWrench, faCode} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -24,15 +24,26 @@ function Skills() {
 
         <div className="skills">
             
-        <h2>Skills</h2>
+        <h2>Stack Tech <FontAwesomeIcon icon={faCode} /> </h2>
 
         <button type="button" className="btn btn-light">JavaScript</button>
         <button type="button" className="btn btn-light">ExpressJS</button>
         <button type="button" className="btn btn-light">MongoDB</button>
         <button type="button" className="btn btn-light">ReactJS</button>
         <button type="button" className="btn btn-light">NodeJS</button>
-        <button type="button" className="btn btn-light">GIT</button>
+        <button type="button" className="btn btn-light">CSS</button>
         <button type="button" className="btn btn-light">Bootstrap</button>
+        <button type="button" className="btn btn-light">Redux ToolKit</button>
+        </div>
+        <div className="skills">
+            
+        <h2>Tools <FontAwesomeIcon icon={faScrewdriverWrench} /></h2>
+
+        <button type="button" className="btn btn-light">GIT</button>
+        <button type="button" className="btn btn-light">Postman</button>
+        <button type="button" className="btn btn-light">VScode</button>
+        <button type="button" className="btn btn-light">Canva</button>
+       
         </div>
 
         
