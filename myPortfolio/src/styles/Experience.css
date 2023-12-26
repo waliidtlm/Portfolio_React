@@ -1,5 +1,7 @@
+
 .experience{
     padding-top: 5%;
+    height: auto;
 }
 
 .vertical-timeline-element-content {
@@ -54,4 +56,10 @@ font-size: 1.5rem;
     -webkit-animation: cd-bounce-1 1500ms;
     -moz-animation: cd-bounce-1 1500ms;
     animation: cd-bounce-1 1500ms;
+}
+@media only screen and (max-width: 600px) {
+    .experience{
+        padding-top: 15%;
+        height: auto;
+    }
 }
