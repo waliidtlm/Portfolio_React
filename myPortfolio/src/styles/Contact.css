@@ -20,13 +20,25 @@
 .contact-pic{   
     width:500px ;
     height: 500px;
-    border-radius: 21% 79% 59% 41% / 42% 25% 75% 58% ;
-    transition: border-radius 3500ms ease-in;
-    background-image: linear-gradient(#00acf0bf,#112e42 );
-    box-shadow: 0 10px 30px 0px #00acf014;
+    border-radius:46% 54% 49% 51% / 20% 19% 81% 80%  ;
+    transition: border-radius 500ms ease-in;
+    background-image: linear-gradient(#112e42,#1b73ad00 );
+    box-shadow: 0 10px 30px 0px #086a912c;
+    position: relative;
+    overflow: hidden;
+    
 }
 .contact-pic:hover{
-    border-radius: 50% 50% 28% 72% / 69% 72% 28% 31% ;
+    /* border-radius: 15% 85% 15% 85% / 91% 9% 91% 9%  ; */
+    border-radius: 50%;
+    
+}
+.profil-img{
+    height: 600px;
+    position: absolute;
+    top:-4%;
+    right: -8%;
+    
 }
 
 
@@ -38,7 +50,7 @@
 }
 .contact form .input-box .input-field{
     position: relative;
-    width: 49%;
+    width: 99%;
     margin: .8rem 0;
 
 }
@@ -109,7 +121,14 @@ width: 100%;
   .contact-pic{   
     width:350px ;
     height: 350px;
-    border-radius: 21% 79% 81% 19% / 52% 19% 81% 48% ;
-    background-image: linear-gradient(#00abf0,#112e42 );
+    border-radius:46% 54% 49% 51% / 20% 19% 81% 80% ;
+    background-image: linear-gradient(#112e42,#112e4265 );
+}
+.profil-img{
+    height: 480px;
+    position: absolute;
+    top:-4%;
+    right: -19%;
+    
 }
 }

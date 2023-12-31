@@ -53,18 +53,7 @@ function Home() {
                 style={{ color: "#ffffff" }}
               />
             </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=100009124528310"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="messenger"
-            >
-              <FontAwesomeIcon
-                icon={faFacebookMessenger}
-                size="2xl"
-                style={{ color: "#ffffff" }}
-              />
-            </a>
+            
             <a href="mailto:tlemcani.waliid@gmail.com" className="email">
               <FontAwesomeIcon
                 icon={faEnvelope}
