@@ -1,18 +1,17 @@
 .home {
     display: grid;
     grid-template-columns: 1fr;
-    height: 70vh;
+    height: 100vh;
     align-items:center;
-    justify-items: center;
+    justify-items:center;
     color: #ededed;
     background:url('Landscape.png');
-    background-repeat: no-repeat;
     background-size: cover;
-   
   }
-
-  
-  .about, .profil-img {
+  .about{
+    width: 100%;
+    padding: 5%;
+   
     text-align: center;
   }
   
@@ -24,13 +23,14 @@
   }
   
   .about p {
-    font-size: 1.5em;
+    font-size: 2em;
     
   }
   .social-media {
     display: flex;
     gap: 15px; /* Adjust the gap according to your preference */
-    justify-content: center;
+    justify-content:center;
+    
   }
   .Linkedin:hover{
     transform:scale(1.07);
@@ -99,12 +99,13 @@
   @media (max-width: 768px) {
     .home {
       grid-template-columns: 1fr;
+      height: 60vh;
     }
     .about h2 {
-      font-size: 2.7em;
+      font-size: 2.4em;
     }
     .about p {
-      font-size: 2em;
+      font-size: 1.2em;
     }
     
   }

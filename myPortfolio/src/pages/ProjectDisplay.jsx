@@ -11,12 +11,14 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} />
+      <div className="project-img">
+        <img src={project.image} />
+      </div>
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <FontAwesomeIcon icon={faGithub} />    
-      </div>
+      <FontAwesomeIcon icon={faGithub} />
+    </div>
   );
 }
 
