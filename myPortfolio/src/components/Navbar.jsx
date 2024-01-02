@@ -21,10 +21,20 @@ function Navbar() {
           <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
+
+      
       <div className="links">
+        <div>
+          {/* <h2 className='Logo'>WTlem</h2> */}
+          <img src="capture-1.png" alt="logo" className='logo' />
+        </div>
+        
+        <div  >
+
         <Link to="/"> Home </Link>
         <Link to="/Projects"> Projects </Link>
         <Link to="/Experience"> Experience </Link>
+        </div>
       </div>
     </div>
   );
