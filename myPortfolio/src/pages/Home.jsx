@@ -69,9 +69,11 @@ function Home() {
                 Let's Talk
               </button>
             </a>
+            <a href="myResume.pdf">
             <button type="Submit" className="button-2">
-              My Journey
+              Download CV
             </button>
+            </a>
           </div>
         </div>
       </div>
