@@ -20,8 +20,8 @@
 .contact-pic{   
     width:500px ;
     height: 500px;
-    border-radius:46% 54% 49% 51% / 20% 19% 81% 80%  ;
-    transition: border-radius 500ms ease-in;
+    border-radius: 25% ;
+    transition: border-radius 500ms ease;
     background-image: linear-gradient(#112e42,#1b73ad00 );
     box-shadow: 0 10px 30px 0px #086a912c;
     position: relative;
@@ -37,7 +37,7 @@
     height: 600px;
     position: absolute;
     top:-4%;
-    right: -8%;
+    right: -4%;
     
 }
 
@@ -121,7 +121,7 @@ width: 100%;
   .contact-pic{   
     width:350px ;
     height: 350px;
-    border-radius:46% 54% 49% 51% / 20% 19% 81% 80% ;
+    border-radius: 25%;
     background-image: linear-gradient(#112e42,#112e4265 );
 }
 .profil-img{

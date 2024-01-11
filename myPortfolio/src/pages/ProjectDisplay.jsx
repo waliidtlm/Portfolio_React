@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ProjectsData } from "../components/ProjectsData";
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faLink} from "@fortawesome/free-solid-svg-icons"
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -17,7 +18,13 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
+      
+      <a href={project.githubLink}>
       <FontAwesomeIcon icon={faGithub} />
+      </a>
+      <a href={project.githubLink}>
+      <FontAwesomeIcon icon={faLink} style={{color: "#ededed",}} />     
+      </a>
     </div>
   );
 }

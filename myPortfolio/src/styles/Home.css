@@ -5,7 +5,7 @@
     align-items:center;
     justify-items:center;
     color: #ededed;
-    background:url('Landscape.png');
+    background:url('../assets/Landscape.png');
     background-size: cover;
   }
   .about{
