@@ -27,7 +27,7 @@
     color: #ededed;
     text-decoration: none;
     margin: 20px;
-    font-size: 25px;
+    font-size: 1.7rem;
     
   }
   .navbar a:hover,
@@ -56,15 +56,19 @@
   
   #open {
     height: 100vh;
-    
+    transition: 400ms ease-out;
   }
+  #close {
+    transition: 400ms ease-out;
+  }
+
   
   #open .links {
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 100px;
-    
+    margin-top: 250px;
   }
+
   
   #open a {
     width: 100%;
@@ -74,6 +78,7 @@
   @media only screen and (max-width: 900px) {
     .navbar a {
       width: auto;
+      transition: width 1500ms;
     }
     .logo{
       height: 20px;

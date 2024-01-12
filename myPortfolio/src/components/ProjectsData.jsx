@@ -17,19 +17,5 @@ export const ProjectsData = [
     githubLink : 'https://github.com/waliidtlm/weather-app/tree/main/weather%20app',
     link: "https://my-weather-net.netlify.app/"
   },
-  {
-    name: "Spotify Clone",
-    image: Ecommerce,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
-    githubLink : 'https://github.com/waliidtlm/weather-app/tree/main/weather%20app',
-    link: "https://my-weather-net.netlify.app/"
-  },
-  {
-    name: "Social Media Website",
-    image: Ecommerce,
-    skills: "React,Node.js,MySQL,GraphQL",
-    githubLink : 'https://github.com/waliidtlm/weather-app/tree/main/weather%20app',
-    link: "https://my-weather-net.netlify.app/"
-  },
-
+  
 ];
