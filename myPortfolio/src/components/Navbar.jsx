@@ -7,6 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 function Navbar() {
+  
   const [expandNavBar, setExpandNavBar] = useState(false)
 
   const location = useLocation();
@@ -16,6 +17,7 @@ function Navbar() {
 
   return (
     <div className="navbar" id={expandNavBar ? "open" : "close"}>
+
       <div className="toggleButton">
         <button onClick={()=>{setExpandNavBar((prev)=> !prev)}}>
           <FontAwesomeIcon icon={faBars} />
@@ -23,14 +25,12 @@ function Navbar() {
       </div>
 
       
-      <div className="links">
+      <div className="header">
         <div>
-          {/* <h2 className='Logo'>WTlem</h2> */}
           <img src="capture-1.png" alt="logo" className='logo' />
         </div>
         
-        <div  >
-
+        <div  className="links">
         <Link to="/"> Home </Link>
         <Link to="/Projects"> Projects </Link>
         <Link to="/Experience"> Experience </Link>

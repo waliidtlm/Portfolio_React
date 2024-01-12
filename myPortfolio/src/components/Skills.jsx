@@ -43,6 +43,7 @@ function Skills() {
         <button type="button" className="btn btn-light">Postman</button>
         <button type="button" className="btn btn-light">VScode</button>
         <button type="button" className="btn btn-light">Canva</button>
+        <button type="button" className="btn btn-light">Jira</button>
        
         </div>
 

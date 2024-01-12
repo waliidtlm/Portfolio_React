@@ -88,7 +88,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2021 - Sept 2023"
+          date="2021 - July 2023"
           iconStyle={{ background: "#081b29" }}
           icon={
             <FontAwesomeIcon icon={faBriefcase} style={{ color: "#00abf0" }} />
