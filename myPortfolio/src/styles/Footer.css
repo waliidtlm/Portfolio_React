@@ -1,12 +1,16 @@
 .footer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background: #081b29;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }
 .footer-text p {
     font-size: 1.1rem;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .footer-iconTop a{
     position: relative;
@@ -20,7 +24,7 @@
     z-index:1;
     overflow:hidden;
 }
-.footer-iconTop a::before{
+ .footer-iconTop a::before{
     content:'';
     position: absolute;
     top: 0;
@@ -29,7 +33,7 @@
     height: 100%;
     background: #112e42;
     z-index: -1;
-    transition: .5s;
+    transition: .7s;
 
 }
 .footer-iconTop a:hover::before{
@@ -49,12 +53,3 @@
         padding-top: 10px;
     }
 }
-/* .footer-iconTop a i {
-    font-size: 2.4rem;
-    color: var(--bg-color);
-    transition: .5s;
-} */
-/* .footer-iconTop a:hover i{
-    color: #00abf0;
-
-} */

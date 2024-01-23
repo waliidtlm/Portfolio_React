@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Skills.css"
-import {faScrewdriverWrench, faCode} from "@fortawesome/free-solid-svg-icons"
+import {faScrewdriverWrench, faCode, faFaceSmileBeam} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -15,13 +15,13 @@ function Skills() {
 
         
         <div className="description">
-            <h2>Hello!</h2>
-            <p> I'm Walid Tlemçani, a full-stack developer passionate about leveraging technology to create impactful solutions. I excel in problem-solving and have experience tailoring solutions for diverse needs. <br /><br />
-            Whether it's a project, job opportunity, or just a chat, I'd love to hear from you. Feel free to reach out! </p>  
+            <h2>Hello! </h2>
+            <p> I'm Walid Tlemçani, a passionate full-stack developer with a love for creating innovative solutions. I possess the ability to quickly grasp new concepts, always eager to embrace new challenges and experiences. When I'm not immersed in the world of coding, you can find me unwinding with video games, cherishing moments with family and friends, and exploring the beauty of different places through my love for travel. Let's build something incredible together!" <br /> <br /> Feel free to reach out! <FontAwesomeIcon icon={faFaceSmileBeam} size="xl"/></p>  
+            
         </div>
 
 
-
+       
         <div className="skills">
             
         <h2>Stack Tech <FontAwesomeIcon icon={faCode} /> </h2>
