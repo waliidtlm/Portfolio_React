@@ -1,6 +1,6 @@
 import Ecommerce from "../assets/Ecommerce.png"
 import weatherApp from "../assets/weatherApp.png"
-
+import WebApp from "../assets/WebApp.png"
 
 export const ProjectsData = [
   {
@@ -16,6 +16,13 @@ export const ProjectsData = [
     skills: "React, NodeJS, JavaScript",
     githubLink : 'https://github.com/waliidtlm/weather-app/tree/main/weather%20app',
     link: "https://my-weather-net.netlify.app/"
+  },
+  {
+    name: "Chat App 'Work in Progress'",
+    image: WebApp,
+    skills: "React, NodeJS, JavaScript, Firebase",
+    githubLink : 'https://github.com/waliidtlm/Chat-app/tree/main/chatApp',
+    link: "#"
   },
   
 ];
